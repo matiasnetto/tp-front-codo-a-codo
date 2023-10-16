@@ -1,0 +1,33 @@
+.bg-image {
+  filter: brightness(50%);
+}
+
+.footer {
+  height: 100%;
+  background-color: #1e5271;
+}
+
+.orador-card {
+  /* min-width: 24rem; */
+  width: 75vw;
+}
+
+.bs-as-info-container {
+  /* height: 100vh; */
+  height: auto;
+}
+
+/* DESKTOP */
+@media (min-width: 767px) {
+  .footer {
+    height: 10vh;
+  }
+
+  .orador-card {
+    width: 24rem;
+  }
+
+  .bs-as-info-container {
+    height: 60vh;
+  }
+}
