@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+.form-container {
+  width: 90%;
+}
+
+.categoria-card {
+  width: 90%;
+}
+
+@media (min-width: 767px) {
+  .form-container {
+    width: 50vw;
+  }
+
+  .categoria-card {
+    width: 20rem;
+  }
+
+  main {
+    height: 100vh;
+  }
+}
